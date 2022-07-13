@@ -1,0 +1,17 @@
+@font-face {
+    font-family: myFont;
+    src: url(Norse-Bold.otf);
+}
+
+body {
+    margin: 0px;
+    display: flex;
+}
+
+.description {
+    height: 300px;
+    width: 50%;
+    color: black;
+    font-size: 25px;
+    font-family: myFont;
+}
