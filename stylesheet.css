@@ -1,6 +1,6 @@
 @font-face {
     font-family: myFont;
-    src: url(Norse-Bold.otf);
+    src: url(Metropolis-Black.otf);
 }
 
 body {
@@ -11,29 +11,45 @@ body {
 .content {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
 }
 .description {
-    height: 300px;
-    width: 50%;
+    height: 200px;
+    width: 70%;
     color: black;
     font-size: 25px;
     font-family: myFont;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: myFont;
+    background-color: hsl(32, 94%, 60%);
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+
 .input-fields {
     display: flex;
-    justify-content: space-around;
-
+    padding: 0px 0px 60px 0px;
 }
 
 .form-part-first {
     display: flex;
     flex-direction: column;
     width: 300px;
+    gap: 10px;
 }
 
 .form-part-second {
     display: flex;
     flex-direction: column;
     width: 300px;
+    gap: 10px;
+}
+
+.form-part-third {
+    background-color: white;
 }
