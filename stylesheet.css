@@ -8,10 +8,32 @@ body {
     display: flex;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
 .description {
     height: 300px;
     width: 50%;
     color: black;
     font-size: 25px;
     font-family: myFont;
+}
+
+.input-fields {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.form-part-first {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.form-part-second {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
 }
