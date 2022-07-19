@@ -4,9 +4,11 @@
 }
 
 body {
-    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
     display: flex;
-    font-size: min(16px, 100%);
 }
 
 .content {
@@ -16,9 +18,8 @@ body {
     background-color: white;
 }
 .description {
-    position: relative;
-    height: 120px;
-    width: 70%;
+    height: 100px;
+    width: 80%;
     color: black;
     font-size: 1.6vw;
     font-family: myFont;
@@ -36,7 +37,10 @@ form {
 
 .input-fields {
     display: flex;
-    padding: 0px 0px 60px 0px;
+    justify-content: space-between;
+    padding: 0px 0px 40px 0px;
+    margin-left: 50px;
+    margin-right: 100px;
 }
 
 .form-part-first {
@@ -59,4 +63,41 @@ form {
 
 #action-call {
     color: white;
+    margin-left: 50px;
+    font-size: 1.7vw;
+    text-shadow: 2px 2px black;
 }
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 1.4vw;
+}
+ input {
+     width: 24vw;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    font-size: 0.9em;
+    color:#555;
+    font-family: myFont;
+ }
+
+ input:focus {
+    outline: none;
+    border: 3px solid #555;
+
+ }
+
+ input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 50px white inset;
+    -webkit-text-fill-color: #555;
+ }
+
+ input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 50px white inset;
+    -webkit-text-fill-color: #555;
+ }
