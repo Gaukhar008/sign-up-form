@@ -133,3 +133,23 @@ form {
  #log-in-link:hover {
      text-decoration: underline;
  }
+ 
+#background-image {
+    position: relative;
+}
+
+ .logo {
+    position: absolute;
+    display: flex;
+    width: fit-content;
+ }
+
+ #logo {
+    height: ;
+    width: auto;
+ }
+
+ #logo-description {
+ }
+
+ 
