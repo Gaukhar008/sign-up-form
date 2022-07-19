@@ -101,3 +101,35 @@ form {
     -webkit-box-shadow: 0 0 0 50px white inset;
     -webkit-text-fill-color: #555;
  }
+
+ #create-button {
+    margin: 30px 50px 30px 50px;
+    height: 6vh;;
+    width: 13vw;
+    font-size: 1em;
+    font-family: myFont;
+    background-color: hsl(32, 94%, 60%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 0.5px 0.5px 0.5px rgb(150, 145, 145);
+    box-shadow: 1px 1px 1px rgb(150, 145, 145);
+    letter-spacing: 0.5px;
+ }
+
+ #create-button:hover {
+     background-color: hsl(32, 77%, 44%);
+ }
+
+ #log-in-para {
+    margin: 0 50px 30px 50px;   
+ }
+
+ #log-in-link {
+     text-decoration: none;
+     color: hsl(32, 94%, 60%)
+ }
+
+ #log-in-link:hover {
+     text-decoration: underline;
+ }
