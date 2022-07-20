@@ -139,17 +139,35 @@ form {
 }
 
  .logo {
-    position: absolute;
+    position: relative;
+    height: auto;
     display: flex;
-    width: fit-content;
+    background-color: rgba(41, 39, 39, 0.557);
+    top: 34.5vh;
+    gap: 1vw;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
  }
 
  #logo {
-    height: ;
+    height: 100px;
     width: auto;
  }
 
  #logo-description {
+     font-family: myFont;
+    font-size: 35px;
+    color: white;
+ }
+
+ .picture {
+    background-image: url(./bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 60vw;
  }
 
  
