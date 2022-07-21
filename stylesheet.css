@@ -13,15 +13,16 @@ body {
 
 .content {
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     justify-content: space-evenly;
     background-color: white;
+    width: 65vw;
 }
 .description {
-    height: 100px;
+    height: fit-content;
     width: 80%;
     color: black;
-    font-size: 1.3em;
+    font-size: 3vmin;
     font-family: myFont;
     margin: 60px 50px 30px 50px;
 }
@@ -32,7 +33,7 @@ form {
     font-family: myFont;
     background-color: hsl(32, 94%, 60%);
     padding-top: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 100px;  
 }
 
 .input-fields {
@@ -59,29 +60,30 @@ form {
 
 .form-part-third {
     background-color: white;
+    height: 100%;
 }
 
 #action-call {
     color: white;
     margin-left: 50px;
-    font-size: 1.3em;
+    font-size: 3vmin;
     text-shadow: 2px 2px black;
 }
 
 .input {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     margin-bottom: 20px;
     color: white;
     text-shadow: 2px 2px #ff0000;
-    font-size: 1em;
+    font-size: 2.5vmin;
 }
  input {
-    width: 270px;
+    width: 85%;
     padding: 5px;
     box-sizing: border-box;
     border: 1px solid #555;
-    font-size: 1em;
+    font-size: 2.5vmin;
     color:#555;
     font-family: myFont;
  }
@@ -89,7 +91,7 @@ form {
  input:focus {
     outline: none;
     border: 3px solid #555;
-
+    font-size: 2.5vmin;
  }
 
  input:-webkit-autofill {
@@ -106,7 +108,7 @@ form {
     margin: 30px 50px 30px 50px;
     height: 40px;;
     width: 170px;
-    font-size: 1em;
+    font-size: 2.4vmin;
     font-family: myFont;
     background-color: hsl(32, 94%, 60%);
     border: none;
@@ -122,7 +124,8 @@ form {
  }
 
  #log-in-para {
-    margin: 0 50px 30px 50px;   
+    margin: 0 50px 30px 50px; 
+    font-size: 2.4vmin;  
  }
 
  #log-in-link {
@@ -156,8 +159,8 @@ form {
  }
 
  #logo-description {
-     font-family: myFont;
-    font-size: 35px;
+    font-family: myFont;
+    font-size: 2rem;
     color: white;
  }
 
@@ -167,7 +170,7 @@ form {
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    width: 60vw;
+    width: 35vw;
  }
 
  
