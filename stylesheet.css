@@ -24,7 +24,7 @@ body {
     color: black;
     font-size: 3vmin;
     font-family: myFont;
-    margin: 60px 50px 30px 50px;
+    margin: 10px 50px 10px 50px;
 }
 
 form {
@@ -32,8 +32,6 @@ form {
     flex-direction: column;
     font-family: myFont;
     background-color: hsl(32, 94%, 60%);
-    padding-top: 10px;
-    margin-bottom: 100px;  
 }
 
 .input-fields {
@@ -146,7 +144,7 @@ form {
     height: auto;
     display: flex;
     background-color: rgba(41, 39, 39, 0.557);
-    top: 34.5vh;
+    top: 40vh;
     gap: 1vw;
     padding: 15px;
     justify-content: center;
